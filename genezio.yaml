@@ -1,0 +1,10 @@
+frontend:
+    path: ./
+    publish: ""
+    scripts:
+        build: ""
+        deploy: pip install irclog2html
+    subdomain: irc-logger
+name: irc-logger
+region: us-east-1
+yamlVersion: 2
